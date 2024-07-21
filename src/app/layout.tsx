@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "WhatApp Clone",
-  description: "WhatsApp demo app",
+  title: "Github Finder",
+  description: "Github profile finder",
 };
 
 export default function RootLayout({

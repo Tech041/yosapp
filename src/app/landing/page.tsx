@@ -7,7 +7,7 @@ const Landing = () => {
     <section className="w-full h-screen bg-gray-200">
       <div className="p-20 flex flex-col justify-center items-center  w-full h-full  relative ">
         <FaGithub size={80} className="text-green-400 mb-8" />
-        <h1 className=" text-green-900 text-xl">GitHub Prifle Finder</h1>
+        <h1 className=" text-green-900 text-xl">GitHub Profile Finder</h1>
         <h1 className=" text-green-900 text-xl">By Pharm Nelson</h1>
         <Link
           href="/otp"
