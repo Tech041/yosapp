@@ -4,7 +4,6 @@ import React, { useState } from "react";
 
 const Otp = () => {
   const [userName, setUserName] = useState("");
-  const [user, setUser] = useState("");
 
   return (
     <section className="w-full h-screen relative bg-gray-300">
@@ -29,17 +28,15 @@ const Otp = () => {
             userName !== "" ? "block" : "hidden"
           } bg-green-400 text-white w-[40%] h-[20%] flex justify-center items-center py-1 rounded-md`}
         >
-          <p>You are verified</p>
+          <p>{userName} is verified</p>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center font-semibold mt-10">
-        <p>{user}</p>
-      </div>
+      <div className="flex flex-col justify-center items-center font-semibold mt-10"></div>
 
       <div
         className={`${
           userName !== "" ? "block" : "hidden"
-        } w-full flex justify-center items-center  absolute bottom-10`}
+        } w-full flex justify-center items-center  absolute bottom-[100px]`}
       >
         <span className="bg-green-400 text-white w-[20%] flex justify-center items-center py-1 rounded-md">
           <Link href="/chat" className="text-[16px]">

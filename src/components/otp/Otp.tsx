@@ -3,7 +3,7 @@ import React from "react";
 
 const Otp = () => {
   return (
-    <section className="w-full h-screen relative">
+    <section className="w-full h-screen relative" id="otp">
       <div className="p-10  flex justify-center  flex-col items-center   w-full">
         <h1 className="text-green-400 text-[16px]">Verify your phone number</h1>
 
